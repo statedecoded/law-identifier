@@ -1,3 +1,5 @@
+Examples of how they appear within the code:
+
 * § 1410
 * § 6502
 
