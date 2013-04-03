@@ -11,5 +11,7 @@ Examples of how they appear within the code:
 Often prefixed by "RS" or "R.S."
 
 ```
-([0-9]{1,2}):([0-9]{1,4})((\.[0-9]+)*)
+((R(\.?)S(\.?)\s)?)([0-9]{1,2}):([0-9]{1,4})((\.[0-9]+)*)
 ```
+
+May omit `((R(\.?)S(\.?)\s)?)` for broader matching with relatively high confidence that it will not result in overbroad matching.
