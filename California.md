@@ -1,5 +1,7 @@
 California doesn't have unique section identifiers—the portion of the code (e.g., "Penal Code") must be specified prior to the section identifier in order to make a match. That is to say that same section numbers are reused in multiple "Codes," so knowing "section 8001" doesn't tell you much.
 
+Some laws are "laws," and some are "acts." There appears to be no difference. Section identifiers may end with letters, leading to the practice of writing "subdivision" between the cited section and the subsection, since 501b could be a law or it could be a subsection.
+
 Here are some of the ways that sections are cited within California Supreme Court decisions:
 
 * Penal Code section 1538.5
@@ -15,5 +17,5 @@ Those section identifiers lacking "Code" prefixes are within passages in which i
 Find citations:
 
 ```
-([A-Za-z]+)\sCode\s(&#167;|section|sections)(\s?)([0-9]{1})([0-9\.]*)
+([A-Za-z]+)\sCode\s(&#167;|section|sections)(\s?)([0-9]{1})([0-9a-z\.]*)
 ```
