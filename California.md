@@ -17,5 +17,5 @@ Those section identifiers lacking "Code" prefixes are within passages in which i
 Find citations:
 
 ```
-([A-Za-z]+)\sCode\s(&#167;|section|sections)(\s?)([0-9]{1})([0-9a-z\.]*)
+(((([A-Za-z\s]*)\sCode\s)([A-Za-z\s]*))?)(§|section|sections)(\s?)([0-9]{1})([0-9a-z\.]*)
 ```
