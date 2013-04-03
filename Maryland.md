@@ -34,3 +34,20 @@ There's a citation translation guide in Md. Ann. Code art. 1, § 25. (I'd provid
 > (e) Commercial Law Article. -- A section of the Commercial Law Article may be cited as: "§      of the Commercial Law Article".
 
 That provides a lookup table.
+
+Here's a pretty good PCRE:
+
+```
+(((§|Section)\s)?)([0-9]+)([a-zA-Z]?)-([0-9]+)([a-zA-Z]?)((-?)([0-9]+)([a-zA-Z0-9\.]*)?)((\sof th(e|is) ([A-Za-z ]+))?)
+```
+
+It fails to capture:
+
+* Section 32(h)
+* Section 22(a)(9) of Article 49B of the Maryland Annotated Code
+* Section 22(a)(9) of Article 49B of the Maryland Annotated Code
+
+And it only captures the final portion (§ 12-603) of:
+
+* Code, Courts Article, § 12-603
+* 
