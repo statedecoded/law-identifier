@@ -14,8 +14,16 @@ From court rulings:
 * Section 9543.1 of the Post Conviction Relief Act (“PCRA”), 42 Pa.C.S.A. § 9543.1
 * 42 Pa.C.S. § 702(b)
 * 18 Pa.C.S.A. § 907(a)
-* Section 314(a) of the Workers’ Compensation Act (“Act”),^1 77 P.S. § 651(a)
+* Section 314(a) of the Workers’ Compensation Act (“Act”), 77 P.S. § 651(a)
 * Section 704 of the Administrative Agency Law, 2 Pa.C.S. § 704
 * 1 Pa.C.S. § 1921(a)
 
 Subsequent references begin with “id. "
+
+Here's a good-not-great PCRE:
+
+```
+(([0-9]{1,2}\s)Pa\.C\.S\.((A\.)?)(\s))?((§|Rule|Section)\s?)([0-9]{1,4})([a-z]?)((\.([0-9]{1,3})([a-z]?))?)(((\s)of\sthe\s([A-Za-z ]+))?)
+```
+
+It does fine with everything but "Section 314(a) of the Workers’ Compensation Act (“Act”), 77 P.S. § 651(a)", where it's thrown off by the angled quotes and the "(a)".
