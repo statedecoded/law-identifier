@@ -6,5 +6,5 @@
 Chapters (the first segment) are 1–3 digits. ILCS always appears as the second segment. The third segment is 1–3 digits. And the final segment is 1–3 digits, plus an optional decimal.
 
 ```
-([0-9]{1,3})\sILCS\s([0-9]{1-3})\/([0-9\.]{1-3})
+([0-9]{1,3})\sILCS\s([0-9]{1,3})\/([0-9\.]{1,3})
 ```
