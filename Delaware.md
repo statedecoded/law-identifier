@@ -9,6 +9,14 @@ In court decisions, they are cited as such:
 
 * Del. Code Ann. tit. 18, § 6502
 
+Court PCRE:
+
 ```
-Del. Code Ann. tit. ([0-9]{1,2}), § ([0-9]{3,4})
+Del.\sCode\sAnn.\stit.\s([0-9]{1,2}),\s§\s([0-9]{3,4})
+```
+
+Code PCRE:
+
+```
+§\s([0-9]{3,4})
 ```
