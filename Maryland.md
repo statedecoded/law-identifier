@@ -50,4 +50,3 @@ It fails to capture:
 And it only captures the final portion (§ 12-603) of:
 
 * Code, Courts Article, § 12-603
-* 
