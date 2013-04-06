@@ -14,7 +14,7 @@ Example court ruling citations:
 * 47 D.C. SS 820, 47-830.
 * D.C. Code § 23-110
 * D.C. Code § 17-306
-* D.C. Code $47-1002(8) and §47-1002(18)
+* D.C. Code §47-1002(8) and §47-1002(18)
 * D.C. Code sections 1-2272(8) and (18) and 47-1002(8) and (18)
 
 Structure is title-chapter/section. That is, the first segment is the title number, then a hyphen. The second segment is the chapter number followed by the section number. § 9-812, for example, is Title 9, Chapter 8, the 12th section.
