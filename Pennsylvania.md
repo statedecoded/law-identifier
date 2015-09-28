@@ -25,5 +25,3 @@ Here's a fairly good regex:
 ```
 ((\d{1,2}\sPa?\.(C\.)?S\.(A\.)?\s)?(§|Rule|Section)\s?\d{1,4}\(?[a-z]?\)?(\.\d{1,3}[a-z]?)?(\sof\sthe\s[A-Za-z “”’()]+)?(, )?){1,2}
 ```
-
-It does fine with everything but "Section 314(a) of the Workers’ Compensation Act (“Act”), 77 P.S. § 651(a)", where it's thrown off by the angled quotes and the "(a)".
